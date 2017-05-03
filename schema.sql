@@ -10,7 +10,7 @@ product_name varchar(255) NOT NULL,
 department_name varchar(255) NULL,
 price decimal(10,2) NULL,
 stock_quantity int(10) NULL,
-PRIMARY KEY (id)
+PRIMARY KEY (item_id)
 );
 
 -- Inserting 10 different products
